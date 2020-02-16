@@ -1,10 +1,189 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="utf-8">
   <title>CV RS School</title>
 </head>
+
 <body>
+  <header>
+    <h1>Alexander Kopylowe</h1>
+    <h6><a href="./cv.md">cv.md</a></h6>
+  </header>
+  <main>
+  <figure id="photo">
+    <img src="./src/images/me.jpg" alt="photo" />
+    <figcaption>My photo</figcaption>
+  </figure>
+  <section id="contact">
+    <h2>Contact Info</h2>
+    <article>
+      <ul>
+        <li> E-mail: akd.look@gmail.com  </li>
+        <li> LinkedIn: <a href="https://www.linkedin.com/in/alexandr-kopylowe-9b154316b">
+          Alexandr Kopylowe</a>
+        </li>
+        <li> Phone: <img src="./src/images/anti-robot-alias-phone.png" alt="This is phone" /></li>
+      </ul>
+    </article>
+  </section>
+
+  <section id="summary">
+    <h2>Summary</h2>
+    <article>
+      <h4 id="goals">My goal:</h4>
+      <ul>
+        <li>
+          <input type="checkbox" id="goal-1" name="goals" checked disabled />
+          <label for="goal-1">Finish university.</label>
+        </li>
+        <li>
+          <input type="checkbox" id="goal-2" name="goals" checked disabled />
+          <label for="goal-2">Get frontend job in international team.</label>
+        </li>
+        <li>
+          <input type="checkbox" id="goal-3" name="goals" disabled />
+          <label for="goal-3"> Get middle stage.</label>
+        </li>
+        <li>
+          <input type="checkbox" id="goal-4" name="goals" disabled />
+          <label for="goal-4"> Get senior stage.</label>
+        </li>
+        <li>
+          <input type="checkbox" id="goal-5" name="goals" disabled />
+          <label for="goal-5"> To be a competent specialist worldwide, best of the beast!</label>
+        </li>
+      </ul>
+    </article>
+
+    <article>
+      <h4 id="wishes">My wishes:</h4>
+      <ul>
+        <li>Realize H+ ideas.</li>
+        <li>Participate in AI development.</li>
+        <li>Finish my blog at free time.</li>
+        <li>Dodge. <em>Dodge Challenger 1970.</em></li>
+      </ul>
+    </article>
+
+    <article>
+      <h6 id="important-things">For me it is important:</h6>
+      <ul>
+        <li>To know that what I am doing will directly benefit humanity.</li>
+        <li>To see the work done visually.</li>
+        <li>Enjoy the work.</li>
+        <li>Have a close-knit team.</li>
+      </ul>
+    </article>
+  </section>
+
+  <section id="skills">
+    <h2>Skills</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>Frontend</th>
+          <th>Backend</th>
+          <th>Other</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>JS</td>
+          <td>Php</td>
+          <td>Storybook</td>
+        </tr>
+        <tr>
+          <td>HTML</td>
+          <td>C#</td>
+          <td>JsDoc</td>
+        </tr>
+        <tr>
+          <td>React.js</td>
+          <td>Firebase</td>
+          <td>Git flow</td>
+        </tr>
+        <tr>
+          <td>CSS SASS</td>
+          <td></td>
+          <td> Linux</td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
+  <section>
+    <h2 id="codeexamples">Code examples</h2>
+    <p>Ladies and Gentlemen allow me to present experimental technology :</p>
+    <pre>
+      <code class="es6 language-es6">
+        const some  = 'Hey'
+        const what  = n =&gt; `${n}, what`
+        const the   = n =&gt; `${n} the`
+        const hack  = n =&gt; `${n} hack?`
+
+        some |&gt; what |&gt; the |&gt; hack
+      </code>
+    </pre>
+    <p>The <strong>experimental</strong> pipeline operator |> (currently at stage 1) pipes the value
+      of an expression into a function.
+      Cool readable.
+    </p>
+  </section>
+
+  <section id="experience">
+    <h2>Experience</h2>
+    <table>
+      <thead>
+      <tr>
+        <th>Date</th>
+        <th>Company</th>
+        <th>Position</th>
+      </tr>
+      </thead>
+      <tbody>
+      <tr>
+        <td>jul 18 - sep 18</td>
+        <td>FLAT 12</td>
+        <td>html/css/js developer</td>
+      </tr>
+      <tr>
+        <td>nov 18 - nowadays</td>
+        <td>Telerion Inc</td>
+        <td>Frontend dev</td>
+      </tr>
+      </tbody>
+    </table>
+  </section>
+
+  <section>
+    <h2 id="education">Education</h2>
+    <article>
+      <p>
+        Nizhny Novgorod State Technical University n.a. R.E. Alekseev <br />
+        Institute of Radio Electronics and Information Technologies <br />
+        Information Systems and Technology : Information Security
+      </p>
+    </article>
+  </section>
+
+  <section>
+    <h2 id="english">English</h2>
+    <article>
+      <p><strong>Pre-intermediate</strong> but, can read technical documentation, speak at the
+        household level, watch a video like that beautiful one -
+        <a href="https://youtu.be/BcmUOmvl1N8">Web SARVAR!!!</a>
+      </p>
+    </article>
+  </section>
+  </main>
+
+  <footer>
+    <h2 id="termsofuse">Terms of use</h2>
+    <p>This is just playful cv. Why not? For official cv, please contact me in
+      <a href="https://www.linkedin.com/in/alexandr-kopylowe-9b154316b">LinkedIn</a>.
+    </p>
+  </footer>
 
 </body>
 </html>
