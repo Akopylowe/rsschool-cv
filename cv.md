@@ -5,6 +5,7 @@
 ## Contact Info
 
 * E-mail: akd.look@gmail.com  
+* LinkedIn: [Alexandr Kopylowe](https://www.linkedin.com/in/alexandr-kopylowe-9b154316b)
 * Phone: ![This is phone](./src/images/anti-robot-alias-phone.png)
 
 ## Summary
