@@ -71,7 +71,7 @@ Information Systems and Technology : Information Security
 
 ## English
 
-**Pre-intermediate** but, can read technical documentation, speak at the household level, watch a video like that beautiful one - [Web SARVAR!!!](https://youtu.be/BcmUOmvl1N8) :rofl:
+**Pre-intermediate** but, can read technical documentation, speak at the household level, watch a video like that beautiful one - [Web SARVAR!!!](https://youtu.be/BcmUOmvl1N8)
 
 ## Terms of use
 This is just playful cv. Why not? For official cv, please contact me in [LinkedIn](https://www.linkedin.com/in/alexandr-kopylowe-9b154316b).
